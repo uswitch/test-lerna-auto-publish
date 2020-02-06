@@ -1,0 +1,19 @@
+{
+  "name": "@uswitch-lerna-test/server",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Salomao Rodrigues <salomao88@gmail.com>",
+  "homepage": "https://github.com/uswitch/test-lerna-auto-publish#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uswitch/test-lerna-auto-publish.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/uswitch/test-lerna-auto-publish/issues"
+  }
+}

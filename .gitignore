@@ -1,0 +1,8 @@
+## Development Artifacts
+npm-debug.log*
+**/node_modules/
+lerna-debug.log
+
+## Output
+src/**/lib
+storybook-static/

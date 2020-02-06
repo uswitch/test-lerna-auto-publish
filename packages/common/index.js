@@ -4,5 +4,5 @@
 module.exports = common;
 
 function common() {
-    return 'hello from common'
+    return 'hello from common!'
 }

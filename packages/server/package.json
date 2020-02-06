@@ -15,5 +15,8 @@
   },
   "bugs": {
     "url": "https://github.com/uswitch/test-lerna-auto-publish/issues"
+  },
+  "dependencies": {
+    "@uswitch-lerna-test/common": "^1.0.0"
   }
 }

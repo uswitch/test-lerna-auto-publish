@@ -13,3 +13,10 @@ pipeline:
     image: node:12.14-alpine
     commands:
       - npx lerna run build
+
+  npm:
+    image: plugins/npm
+    settings:
+      username: uswitch-publisher
+      token: ${NPM_TOKEN}
+      email: frontend@uswitch.com

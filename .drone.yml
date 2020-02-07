@@ -13,3 +13,11 @@ pipeline:
     image: node:12.14-alpine
     commands:
       - npx lerna run build
+
+  publish:
+    when:
+      branch: master
+    image: node:12.14-alpine
+    commands:
+      - export NPM_TOKEN="${NPM_TOKEN}"
+      - npx lerna publish from-git --yes

@@ -1,6 +1,6 @@
 {
   "name": "@uswitch/test-lerna-auto-publish.common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "Salomao Rodrigues <salomao88@gmail.com>",
   "homepage": "https://github.com/uswitch/test-lerna-auto-publish#readme",

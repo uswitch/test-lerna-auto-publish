@@ -20,4 +20,4 @@ pipeline:
     image: node:12.14-alpine
     commands:
       - export NPM_TOKEN="${NPM_TOKEN}"
-      - npx lerna publish from-git --yes
+      - npx lerna publish from-package --yes

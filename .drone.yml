@@ -6,7 +6,7 @@ pipeline:
     environment:
       - NPM_TOKEN="$$NPM_TOKEN"
     commands:
-      - "echo $NPM_TOKEN"
+      - echo $NPM_TOKEN
       - npm install
       - npx lerna bootstrap
 

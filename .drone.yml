@@ -3,7 +3,9 @@ pipeline:
     when:
       event: [push]
     image: node:12.14-alpine
+    secrets: [ NPM_TOKEN ]
     commands:
+      - echo $${NPM_TOKEN}
       - npm install
       - npx lerna bootstrap
 
@@ -20,5 +22,4 @@ pipeline:
     image: node:12.14-alpine
     secrets: [ NPM_TOKEN ]
     commands:
-      - echo $${NPM_TOKEN}
       - npx lerna publish from-package --yes

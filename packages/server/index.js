@@ -1,5 +1,5 @@
 'use strict';
-const common = require('@uswitch-lerna-test/common')
+const common = require('@uswitch/test-lerna-auto-publish.common')
 
 module.exports = server;
 

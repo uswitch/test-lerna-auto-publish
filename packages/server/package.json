@@ -1,5 +1,5 @@
 {
-  "name": "@uswitch-lerna-test/server",
+  "name": "@uswitch/test-lerna-auto-publish.server",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "Salomao Rodrigues <salomao88@gmail.com>",
@@ -17,6 +17,7 @@
     "url": "https://github.com/uswitch/test-lerna-auto-publish/issues"
   },
   "dependencies": {
-    "@uswitch-lerna-test/common": "^1.0.2"
-  }
+    "@uswitch/test-lerna-auto-publish.common": "^1.0.2"
+  },
+  "gitHead": "04fde5d6e64327cce4637ca8f22cf5476baf0cf7"
 }

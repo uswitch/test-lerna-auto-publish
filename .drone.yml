@@ -20,4 +20,6 @@ pipeline:
     image: node:12.14-alpine
     secrets: [ "npm_token" ]
     commands:
+      - npm whoami
+      - echo $NPM_TOKEN
       - npx lerna publish from-package --yes

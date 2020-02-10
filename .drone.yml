@@ -18,6 +18,6 @@ pipeline:
     when:
       branch: master
     image: node:12.14-alpine
-    secrets: [ NPM_TOKEN ]
+    secrets: [ "npm_token" ]
     commands:
       - npx lerna publish from-package --yes

@@ -21,6 +21,6 @@ pipeline:
     secrets: [ "npm_token" ]
     commands:
       - npm -v
-      - npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+      - npm config set '//registry.npmjs.org/:_authToken' $NPM_TOKEN
       - echo $NPM_TOKEN
       - npx lerna publish from-package --yes

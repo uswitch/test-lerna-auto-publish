@@ -2,7 +2,7 @@ pipeline:
   install:
     when:
       event: [push]
-    image: node:12.14-alpine
+    image: node:18.16-alpine
     commands:
       - npm install
       - npx lerna bootstrap
@@ -10,14 +10,14 @@ pipeline:
   build:
     when:
       event: [push]
-    image: node:12.14-alpine
+    image: node:18.16-alpine
     commands:
       - npx lerna run build
 
   publish:
     when:
       branch: master
-    image: node:12.14-alpine
+    image: node:18.16-alpine
     secrets: [ "npm_token" ]
     commands:
       - npm -v
